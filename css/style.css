@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.banner {
+    background-image: url(../imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    opacity: 0.9;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;;
+    height: 35vh;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.titulo_sp {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.texto_sp {
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.cabecalho, .rodape {
+    text-align: center;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_section{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.box {
+    width: 90vw;
+    height: 50%;
+    margin: 20px auto;
+}
+
+
+.box img {
+    width: 100%;
+    height: 40vh;
+}
+
+a{
+    color: #000;
+}
+
+
+@media(min-width: 500px){
+    .container{
+        display: inline;
+    }
+
+    .grupo .titulo_section{
+        width: 100vw;
+    }
+
+    .box img {
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+@media(min-width: 800px){
+    .grupo {
+
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .arranjo{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+
+    .grupo .titulo_section{
+        width: 20vw;
+    }
+
+    .box {
+        width: 70vw;
+        margin: 10px 10px;
+    }
+
+    .box img {
+        height: 35vh;
+    }
+}
