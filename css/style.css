@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.blackwhite {
+    filter: grayscale(1);
+}
+
 html {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 16px;
@@ -25,6 +29,25 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.acessibilidade {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.img2 {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
 }
 
 .titulo_box {
@@ -49,6 +72,7 @@ html {
 }
 
 .cabecalho, .rodape {
+    position: relative;
     text-align: center;
     height: 50px;
     background-color: #000;

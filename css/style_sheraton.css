@@ -11,6 +11,10 @@ html {
     font-size: 16px;
 }
 
+.blackwhite {
+    filter: grayscale(1);
+}
+
 .cabecalho, .rodape {
     text-align: center;
     height: 50px;
@@ -35,6 +39,25 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.acessibilidade {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.img2 {
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
 }
 
 .titulo_box {
