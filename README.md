@@ -1,11 +1,17 @@
-# Gulliver Traveller
 
-Para rodar a API:
+![hotel](https://github.com/user-attachments/assets/b9f46650-365d-417d-9e16-6d0e7f35a5bd)
 
-`python app.py`
+# Site de hotéis
 
-Para chamar a API:
+Site com informações de hotéis para se hospedar na cidade de São Paulo, contendo informações como:
+- Localização;
+- Avaliação;
+- Valor da hospedagem;
+- Distância da Avenida Paulista;
+- Link para o site do hotel.
 
-```bash
-curl -H "Content-Type: application/json" localhost -v
-```
+
+  
+Mais informações:
+- Trabalho da faculdade: Sistemas para internet - FIAP
+- HTML e CSS
